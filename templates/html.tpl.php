@@ -11,7 +11,7 @@
   <title><?php print $head_title; ?></title>
 
   <?php print $styles; ?>
-  <link href="stylesheets/style.css" rel="stylesheet">
+  <link href="/sites/all/themes/johnclairmiller/stylesheets/style.css" rel="stylesheet">
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
 
