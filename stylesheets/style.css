@@ -7127,7 +7127,8 @@ footer {
     .navbar .nav li a {
       color: white;
       text-decoration: none;
-      background: #dc4516; }
+      background: #dc4516;
+      padding: 6px 15px; }
       .navbar .nav li a i {
         font-size: 14px;
         color: #999;
@@ -7166,11 +7167,13 @@ footer {
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 1em; } }
+    line-height: 1em; }
+
+  .navbar-nav {
+    float: right; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .navbar .nav {
-    float: right;
     margin-top: 2em; } }
 body.admin-menu {
   padding-top: 0 !important; }
