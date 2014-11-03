@@ -7170,5 +7170,10 @@ footer {
   .navbar .nav {
     float: right;
     margin-top: 2em; } }
+body.admin-menu {
+  padding-top: 0 !important; }
+
+#admin-menu li {
+  font-size: 12px; }
 
 /*# sourceMappingURL=style.css.map */
