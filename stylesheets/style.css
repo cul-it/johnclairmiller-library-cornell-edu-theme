@@ -7154,7 +7154,8 @@ footer {
     font-size: 48px; }
 
   .navbar .nav li {
-    margin-left: 5px; }
+    margin-left: 5px;
+    float: left; }
 
   .navbar-collapse {
     padding-left: 0; }
