@@ -1,0 +1,130 @@
+// BACKGROUND IMAGE
+// -------------------------
+
+.front {
+	.image-wrapper {
+		min-height: 800px;
+		background: url("../images/slideshow/1.jpg") no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: $dark-gray;
+	}
+}
+
+// HOME PAGE CONTENT
+// -------------------------
+
+.intro-text {
+	@include make-sm-column(6);
+	p {
+		background: rgba(61, 61, 61, 0.9);
+		padding: 30px;
+		color: white;
+		font-size: 18px;
+	}
+}
+.home-menu {
+	@include make-sm-column(6);
+	.nav {
+		float: right;
+		li {
+			margin-bottom: .25em;
+			font-size: 18px;
+			float: left;
+			margin-right: .25em;
+		}
+		a {
+			background: $orange;
+			color: white;
+			display: inline-block;
+			text-decoration: none;
+		}
+		a:hover {
+			background: white;
+			color: $dark-gray;
+		}
+	}
+}
+.jumbotron {
+	background: none;
+	padding-top: 30px;
+}
+
+// MAIN CONTENT
+// -------------------------
+.main-content {
+	background: white;
+	padding: 40px 0;
+}
+
+// BRANDING and NAV
+// -------------------------
+.brand {
+	@include make-md-column(6);
+}
+.navigation {
+	@include make-md-column(6);
+}
+
+// SUB PAGES
+// -------------------------
+
+
+// FOOTER
+// -------------------------
+footer {
+	padding-bottom: 2em;
+	p { font-size: 16px; }
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.image-wrapper {
+		padding: 0 30px;
+	}
+	.image-wrapper {
+		background: url("../images/slideshow/1.jpg") no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: $dark-gray;
+	}
+	.jumbotron {
+		padding-top: 100px;
+	}
+	.home-menu {
+		text-align: right;
+		.nav {
+			width: 50%;
+			li {
+				float: none;
+				margin-right: 0;
+				font-size: 22px;
+			}
+		}
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+
+}

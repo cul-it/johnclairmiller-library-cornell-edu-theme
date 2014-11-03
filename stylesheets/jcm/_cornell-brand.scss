@@ -1,0 +1,90 @@
+.cornell-brand {
+	background: black;
+	font-family: $cornell-font;
+	img {
+		padding: 0;
+		border: 0;
+	}
+}
+.cornell-logo {
+	@include make-sm-column(6);
+	padding-left: 0;
+}
+.mobile-logo {
+	width: 231px;
+	height: 45px;
+}
+.cu-logo {
+	display: block;
+	background: url("../images/layout/cul-logo-white.gif") no-repeat 0 0;
+	width: 263px;
+	height: 75px;
+	a {
+		display: block;
+		border: none;
+		text-indent: -1000em;
+		text-decoration: none;
+	}
+	a#insignia-link {
+		float: left;
+		width: 68px;
+		height: 75px;
+	}
+	#unit-signature-links { float: left; }
+	a#cornell-link {
+		left: 68px;
+		height: 35px;
+	}
+	a#unit-link {
+		top: 38px;
+		height: 37px;
+	}
+	img { display: none; }
+}
+.search-links {
+	text-align: right;
+	margin-top: 20px;
+	@include make-sm-column(6);
+	padding-right: 0;
+	ul {
+	  	padding-top: 10px;
+	  	list-style: none; }
+	li { display: inline; }
+	a {
+	  	color: $cornell-red;
+	  	text-decoration: none;
+	  	font-size: 11px;
+	  	padding: 5px 15px;
+	  }
+	a:hover { 
+		background: $cornell-red;
+		color: white;
+	}
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.cornell-brand {
+		background: white;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+}

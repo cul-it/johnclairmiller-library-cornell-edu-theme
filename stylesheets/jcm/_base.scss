@@ -1,0 +1,109 @@
+body {
+	font-family: $font-family-sans-serif;
+	background: $light-gray; // footer color
+	color: $dark-gray;
+}
+
+// Links
+// -------------------------
+
+a {
+	color: $ice-blue;
+	text-decoration: underline;
+}
+a:hover {
+	color: $light-ice-blue;
+}
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+}
+h2 {
+	color: black;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+// Typography
+// -------------------------
+
+p, li {
+	font-size: 18px;
+}
+
+// Buttons
+// -------------------------
+
+.btn {
+	border-radius: 0;
+	text-decoration: none;
+}
+.btn-tarr {
+	background: $ice-blue;
+	color: white;
+	i {
+		margin-left: 5px;
+	}
+	.fa-external-link {
+		font-size: 14px;
+	}
+}
+.btn-tarr:hover {
+	background: $dark-ice-blue;
+	color: white;
+}
+
+// Images
+// -------------------------
+img {
+	padding: 3px;
+	border: 1px solid $light-gray;
+}
+.img-left {
+	text-align: center;
+	margin: 10px 20px 10px 0;
+}
+.img-right {
+	text-align: center;
+	margin: 10px 0 20px 10px;
+}
+.caption {
+	font-size: 16px;
+	margin-top: .5em;
+	color: $light-gray;
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	// smallest devices are on a darker background since we are not displaying the image there; some text elements need to be a darker color on larger devices
+	a:hover {
+		color: black;
+	}
+	.caption {
+		color: $dark-gray;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+}

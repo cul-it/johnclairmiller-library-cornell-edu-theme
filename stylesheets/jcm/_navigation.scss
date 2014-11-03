@@ -1,0 +1,121 @@
+// BRANDING
+// -------------------------
+
+.navbar-brand {
+	font-family: $font-family-sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+	height: auto;
+	line-height: 1.2em;
+	float: none;
+	display: block;
+	text-decoration: none;
+	padding: 15px 0;
+}
+.navbar-brand:hover {
+	color: $orange;
+}
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none;
+	.container {
+		background: $dark-gray;
+		background: rgba(61, 61, 61, 0.9);
+	}
+	.nav {
+		li {
+			font-size: 18px;
+			a {
+				color: white;
+				text-decoration: none;
+				background: $orange;
+				i {
+					font-size: 14px;
+					color: $medium-gray;
+					margin-left: 5px;
+				}
+			}
+			a:hover {
+				background-color: white;
+				color: $dark-gray;
+			}
+		}
+		li.active {
+			a, a:hover {
+				color: $dark-gray;
+				background-color: white;
+			}
+		}
+	}
+}
+.navbar-toggle {
+	float: none;
+	background: $light-gray;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+
+// FOOTER NAV
+// -------------------------
+
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.navbar-brand {
+		padding-left: 30px;
+		line-height: 1.5em;
+		font-size: 48px;
+	}
+	.navbar {
+		.nav {
+			li {
+				margin-left: 5px;
+			}
+		}
+	}
+	.navbar-collapse {
+		padding-left: 0;
+	}
+	footer {
+		.nav {
+			li {
+				float: left;
+			}
+		}
+	}
+	.navbar-nav > li > a { 
+		padding-top: 10px;
+		padding-bottom: 10px;
+		line-height: 1em;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+	.navbar {
+		.nav {
+			float: right;
+			margin-top: 2em;
+		}
+	}
+}
