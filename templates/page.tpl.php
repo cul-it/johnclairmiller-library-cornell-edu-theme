@@ -36,7 +36,7 @@
             <i class="fa fa-bars"></i> Menu
           </button>
           <div class="navbar-collapse collapse">
-            <div class="nav navbar-nav">
+            <div class="navbar-nav">
               <?php print render($page['navigation']); ?>
             </div>
           </div>
