@@ -69,9 +69,11 @@
 	@include make-md-column(6);
 }
 
-// SUB PAGES
+// WORKS PAGES
 // -------------------------
-
+.work {
+	@include make-sm-column(3);
+}
 
 // FOOTER
 // -------------------------
