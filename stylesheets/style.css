@@ -7069,16 +7069,6 @@ img {
       float: left;
       width: 50%; } }
 
-.work {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 768px) {
-    .work {
-      float: left;
-      width: 25%; } }
-
 footer {
   padding-bottom: 2em; }
   footer p {
