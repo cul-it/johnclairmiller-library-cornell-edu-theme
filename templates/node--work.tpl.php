@@ -48,3 +48,6 @@
 <div class="pull-right img-right">
   <?php print render($content['field_work_image']); ?>
 </div>
+<?php
+  print render($content);
+?>
