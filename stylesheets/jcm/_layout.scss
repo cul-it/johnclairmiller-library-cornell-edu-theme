@@ -96,11 +96,13 @@ footer {
 }
 .subfooter {
 	.container {
-		background: $dark-gray;
+		background: rgba(61, 61, 61, 0.9);
 	}
 	p {
-		padding: 40px;
+		padding: 30px;
 		color: white;
+		font-size: 16px;
+		text-align: center;
 	}
 }
 
