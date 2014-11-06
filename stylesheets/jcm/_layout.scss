@@ -88,11 +88,20 @@
 	}
 }
 
-// FOOTER
+// FOOTER and SUBFOOTER
 // -------------------------
 footer {
 	padding-bottom: 2em;
 	p { font-size: 16px; }
+}
+.subfooter {
+	.container {
+		background: $dark-gray;
+	}
+	p {
+		padding: 40px;
+		color: white;
+	}
 }
 
 // MEDIA QUERIES

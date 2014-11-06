@@ -7088,6 +7088,12 @@ footer {
   footer p {
     font-size: 16px; }
 
+.subfooter .container {
+  background: #3d3d3d; }
+.subfooter p {
+  padding: 40px;
+  color: white; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .image-wrapper {
