@@ -71,9 +71,12 @@
 
 // WORKS PAGES
 // -------------------------
-// .work {
-// 	@include make-sm-column(3);
-// }
+.work {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
 
 // FOOTER
 // -------------------------

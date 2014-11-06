@@ -7069,6 +7069,10 @@ img {
       float: left;
       width: 50%; } }
 
+.work img {
+  max-width: 100%;
+  height: auto; }
+
 footer {
   padding-bottom: 2em; }
   footer p {
