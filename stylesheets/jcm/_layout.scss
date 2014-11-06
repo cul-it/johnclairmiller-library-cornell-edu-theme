@@ -72,9 +72,18 @@
 // WORKS PAGES
 // -------------------------
 .work {
+	text-align: center;
 	img {
 		max-width: 100%;
 		height: auto;
+	}
+	.title {
+		font-size: 16px;
+		margin: .25em 0;
+	}
+	.date-display-single {
+		font-size: 14px;
+		color: $medium-gray;
 	}
 }
 

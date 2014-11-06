@@ -6931,7 +6931,8 @@ h1 {
   color: black;
   font-size: 30px;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 1em; }
 
 p, li {
   font-size: 18px; }
@@ -7069,9 +7070,17 @@ img {
       float: left;
       width: 50%; } }
 
-.work img {
-  max-width: 100%;
-  height: auto; }
+.work {
+  text-align: center; }
+  .work img {
+    max-width: 100%;
+    height: auto; }
+  .work .title {
+    font-size: 16px;
+    margin: .25em 0; }
+  .work .date-display-single {
+    font-size: 14px;
+    color: #999; }
 
 footer {
   padding-bottom: 2em; }
