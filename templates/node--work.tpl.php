@@ -15,7 +15,6 @@
       <?php if (!$page && $title): ?>
         <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
       <?php endif; ?>
-      <h3>Test node page</h3>
       <?php print render($title_suffix); ?>
 
       <?php if ($display_submitted): ?>
@@ -30,6 +29,8 @@
       <?php endif; ?>
     </header>
   <?php endif; ?>
+
+  <p>TEST PAGE</p>
 
   <?php
     // We hide the comments and links now so that we can render them later.
