@@ -7091,9 +7091,6 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .image-wrapper {
-    padding: 0 30px; }
-
-  .image-wrapper {
     background: url("../images/slideshow/1.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
