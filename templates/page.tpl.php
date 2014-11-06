@@ -44,24 +44,33 @@
       </div>
     </div>
   </div><!-- /navbar -->
+
+  <div class="main-content">
+    <div class="container">
+      <?php print render($breadcrumb); ?>
+      <?php print render($page['highlighted']); ?>
+      <?php print $messages; ?>
+      <?php print render($tabs); ?>
+      <?php print render($page['help']); ?>
+      <?php if ($action_links): ?>
+        <ul class="action-links"><?php print render($action_links); ?></ul>
+      <?php endif; ?>
+      <?php if ($title): ?>
+        <h1><?php print $title; ?></h1>
+      <?php endif; ?>
+      <?php print render($page['content']); ?>
+    </div>
+  </div><!-- /main-content -->
+
+  <div class="subfooter">
+    <div class="container">
+      <?php print render($page['subfooter']); ?>
+    </div>
+  </div>  
+
 </div>
 
-<div class="main-content">
-  <div class="container">
-    <?php print render($breadcrumb); ?>
-    <?php print render($page['highlighted']); ?>
-    <?php print $messages; ?>
-    <?php print render($tabs); ?>
-    <?php print render($page['help']); ?>
-    <?php if ($action_links): ?>
-      <ul class="action-links"><?php print render($action_links); ?></ul>
-    <?php endif; ?>
-    <?php if ($title): ?>
-      <h1><?php print $title; ?></h1>
-    <?php endif; ?>
-    <?php print render($page['content']); ?>
-  </div>
-</div><!-- /main-content -->
+
 
 <div class="container">
   <footer>

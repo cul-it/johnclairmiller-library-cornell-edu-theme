@@ -8,6 +8,7 @@ regions[navigation]     = 'Navigation'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
+regions[subfooter]   	= 'Subfooter'
 regions[footer]   		= 'Footer'
 
 ; Stylesheets
