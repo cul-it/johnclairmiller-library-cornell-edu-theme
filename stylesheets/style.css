@@ -6921,11 +6921,11 @@ body {
   color: #3d3d3d; }
 
 a {
-  color: #05b7c7;
+  color: #dc4516;
   text-decoration: underline; }
 
 a:hover {
-  color: #abe4e9; }
+  color: black; }
 
 h1 {
   color: black;
@@ -7078,7 +7078,7 @@ img {
     height: auto; }
   .work .title {
     font-size: 16px;
-    margin: .25em 0; }
+    margin-top: .25em; }
   .work .date-display-single {
     font-size: 14px;
     color: #999; }
