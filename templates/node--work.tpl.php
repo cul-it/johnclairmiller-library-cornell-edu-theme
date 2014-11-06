@@ -14,7 +14,7 @@
     <a href"#" class="btn btn-default">View full collection</a>
   </div>
   <div class="work-data">
-    <dl>
+    <dl class="dl-horizontal">
       <?php if ($content['field_type']) : ?>
         <dt>Type</dt>
         <dd><?php print render($content['field_type']); ?></dd>
