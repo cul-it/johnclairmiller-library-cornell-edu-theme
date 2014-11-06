@@ -48,6 +48,8 @@
 <div class="row">
   <div class="access">
     <?php print render($content['field_work_image']); ?>
+    <a href"#" class="btn btn-default">View images of <?php print $title; ?></a>
+    <a href"#" class="btn btn-default">View full collection</a>
   </div>
   <div class="work-data">
     <dl>
@@ -55,18 +57,24 @@
       <dd><?php print render($content['field_type']); ?></dd>
       <dt>Location</dt>
       <dd><?php print render($content['field_location']); ?></dd>
-      <dt>Location</dt>
+      <dt>Owner</dt>
       <dd><?php print render($content['field_owner']); ?></dd>
-      <dt>Location</dt>
+      <dt>Sponsor</dt>
       <dd><?php print render($content['field_sponsor']); ?></dd>
-      <dt>Location</dt>
+      <dt>Date</dt>
       <dd><?php print render($content['field_date']); ?></dd>
-      <dt>Location</dt>
+      <dt>Design</dt>
       <dd><?php print render($content['field_design']); ?></dd>
-      <dt>Location</dt>
+      <dt>Engineering</dt>
       <dd><?php print render($content['field_engineering']); ?></dd>
-      <dt>Location</dt>
+      <dt>Award</dt>
       <dd><?php print render($content['field_award']); ?></dd>
     </dl>
+    <h2>Program Description</h2>
+    <?php print render($content['field_program']); ?>
+    <h2>Design Description</h2>
+    <?php print render($content['field_design_description']); ?>
+    <h2>Award Description</h2>
+    <?php print render($content['field_award_description']); ?>
   </div>
 </div>
