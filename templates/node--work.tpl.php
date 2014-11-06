@@ -53,15 +53,19 @@
   </div>
   <div class="work-data">
     <dl>
-      <dt>Type</dt>
-      <dd><?php print render($content['field_type']); ?></dd>
+      <?php if ($content['type']) : ?>
+        <dt>Type</dt>
+        <dd><?php print render($content['field_type']); ?></dd>
+      <?php endif; ?>
       <dt>Location</dt>
       <dd><?php print render($content['field_location']); ?></dd>
       <dt>Owner</dt>
       <dd><?php print render($content['field_owner']); ?></dd>
       <dt>Sponsor</dt>
-      <dd><?php print render($content['field_sponsor']); ?></dd>
-      <dt>Date</dt>
+      <?php if ($content['type']) : ?>
+        <dd><?php print render($content['field_sponsor']); ?></dd>
+        <dt>Date</dt>
+      <?php endif; ?>
       <dd><?php print render($content['field_date']); ?></dd>
       <dt>Design</dt>
       <dd><?php print render($content['field_design']); ?></dd>
