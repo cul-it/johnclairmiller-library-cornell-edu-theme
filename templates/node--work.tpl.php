@@ -61,11 +61,11 @@
       <dd><?php print render($content['field_location']); ?></dd>
       <dt>Owner</dt>
       <dd><?php print render($content['field_owner']); ?></dd>
-      <dt>Sponsor</dt>
-      <?php if ($content['type']) : ?>
+      <?php if ($content['sponsor']) : ?>
+        <dt>Sponsor</dt>
         <dd><?php print render($content['field_sponsor']); ?></dd>
-        <dt>Date</dt>
       <?php endif; ?>
+      <dt>Date</dt>
       <dd><?php print render($content['field_date']); ?></dd>
       <dt>Design</dt>
       <dd><?php print render($content['field_design']); ?></dd>
