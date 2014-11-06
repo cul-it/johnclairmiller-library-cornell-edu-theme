@@ -7071,7 +7071,8 @@ img {
       width: 50%; } }
 
 .work {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 2em; }
   .work img {
     max-width: 100%;
     height: auto; }
