@@ -45,9 +45,28 @@
 
 </article> -->
 
-<div class="pull-right img-right">
-  <?php print render($content['field_work_image']); ?>
+<div class="row">
+  <div class="access">
+    <?php print render($content['field_work_image']); ?>
+  </div>
+  <div class="work-data">
+    <dl>
+      <dt>Type</dt>
+      <dd><?php print render($content['field_type']); ?></dd>
+      <dt>Location</dt>
+      <dd><?php print render($content['field_location']); ?></dd>
+      <dt>Location</dt>
+      <dd><?php print render($content['field_owner']); ?></dd>
+      <dt>Location</dt>
+      <dd><?php print render($content['field_sponsor']); ?></dd>
+      <dt>Location</dt>
+      <dd><?php print render($content['field_date']); ?></dd>
+      <dt>Location</dt>
+      <dd><?php print render($content['field_design']); ?></dd>
+      <dt>Location</dt>
+      <dd><?php print render($content['field_engineering']); ?></dd>
+      <dt>Location</dt>
+      <dd><?php print render($content['field_award']); ?></dd>
+    </dl>
+  </div>
 </div>
-<?php
-  print render($content);
-?>

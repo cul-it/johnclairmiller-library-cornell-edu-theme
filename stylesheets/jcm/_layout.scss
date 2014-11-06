@@ -69,7 +69,7 @@
 	@include make-md-column(6);
 }
 
-// WORKS PAGES
+// WORKS GRID PAGES
 // -------------------------
 .work {
 	text-align: center;
@@ -86,6 +86,15 @@
 		font-size: 14px;
 		color: $medium-gray;
 	}
+}
+
+// INDIVIDUAL WORK PAGE
+// -------------------------
+.access {
+	@include make-sm-column(4);
+}
+.work-data {
+	@include make-md-column(8);
 }
 
 // FOOTER and SUBFOOTER

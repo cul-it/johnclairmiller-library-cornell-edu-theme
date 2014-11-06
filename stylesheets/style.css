@@ -7083,6 +7083,26 @@ img {
     font-size: 14px;
     color: #999; }
 
+.access {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .access {
+      float: left;
+      width: 33.33333%; } }
+
+.work-data {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .work-data {
+      float: left;
+      width: 66.66667%; } }
+
 footer {
   padding-bottom: 2em; }
   footer p {
