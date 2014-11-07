@@ -225,5 +225,9 @@ footer {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
-
+	.front {
+		.image-wrapper {
+			min-height: 800px;
+		}
+	}
 }

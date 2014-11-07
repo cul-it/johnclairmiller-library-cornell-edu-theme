@@ -7190,6 +7190,9 @@ footer {
     padding-left: 0;
     border-left: 0; } }
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .front .image-wrapper {
+    min-height: 800px; } }
 .navbar-brand {
   font-family: "Hind", sans-serif;
   font-size: 30px;
