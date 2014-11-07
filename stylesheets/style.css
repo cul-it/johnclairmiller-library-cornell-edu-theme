@@ -7092,6 +7092,10 @@ img {
     .access {
       float: left;
       width: 33.33333%; } }
+  .access img {
+    margin-bottom: 2em; }
+  .access .btn {
+    white-space: normal; }
 
 .work-data {
   position: relative;

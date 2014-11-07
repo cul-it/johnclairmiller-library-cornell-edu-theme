@@ -92,6 +92,12 @@
 // -------------------------
 .access {
 	@include make-sm-column(4);
+	img {
+		margin-bottom: 2em;
+	}
+	.btn {
+		white-space: normal;
+	}
 }
 .work-data {
 	@include make-md-column(8);
