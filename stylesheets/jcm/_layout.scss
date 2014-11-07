@@ -141,9 +141,18 @@ footer {
 	}
 	a:hover {
 		background: inherit;
+		text-decoration: underline;
+		color: black;
 	}
 	.nav > li > a {
 		padding: 0;
+		color: $dark-gray;
+		padding: .5em 0;
+	}
+	.nav > li > a:hover {
+		background: inherit;
+		text-decoration: underline;
+		color: black;
 	}
 
 }

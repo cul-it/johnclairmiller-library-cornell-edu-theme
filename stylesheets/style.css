@@ -7134,9 +7134,17 @@ footer {
   footer a {
     color: #3d3d3d; }
   footer a:hover {
-    background: inherit; }
+    background: inherit;
+    text-decoration: underline;
+    color: black; }
   footer .nav > li > a {
-    padding: 0; }
+    padding: 0;
+    color: #3d3d3d;
+    padding: .5em 0; }
+  footer .nav > li > a:hover {
+    background: inherit;
+    text-decoration: underline;
+    color: black; }
 
 .subfooter .container {
   background: rgba(61, 61, 61, 0.9); }
