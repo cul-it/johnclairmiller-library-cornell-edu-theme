@@ -27,7 +27,7 @@
         <dt>Owner</dt>
         <dd><?php print render($content['field_owner']); ?></dd>
       <?php endif; ?>
-      <?php if ($content['sponsor']) : ?>
+      <?php if ($content['field_sponsor']) : ?>
         <dt>Sponsor</dt>
         <dd><?php print render($content['field_sponsor']); ?></dd>
       <?php endif; ?>
