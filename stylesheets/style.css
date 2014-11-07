@@ -7122,6 +7122,8 @@ img {
   .work-data h2 {
     font-size: 14px;
     text-transform: uppercase; }
+  .work-data p {
+    font-size: 16px; }
 
 footer {
   padding-bottom: 2em; }
