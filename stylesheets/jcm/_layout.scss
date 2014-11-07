@@ -132,6 +132,7 @@ footer {
 		font-size: 14px;
 	}
 	.nav {
+		margin-bottom: 1em;
 		li {
 			font-size: 14px;
 			padding: .5em 0;
@@ -213,7 +214,7 @@ footer {
 		.nav {
 			li {
 				padding: .5em 1em;
-				border-left: 1px solid $light-gray;
+				border-left: 1px solid $pale-gray;
 			}
 			li:first-child {
 				padding-left: 0;

@@ -7129,9 +7129,11 @@ footer {
   padding: 1em 0 2em 0; }
   footer p {
     font-size: 14px; }
-  footer .nav li {
-    font-size: 14px;
-    padding: .5em 0; }
+  footer .nav {
+    margin-bottom: 1em; }
+    footer .nav li {
+      font-size: 14px;
+      padding: .5em 0; }
   footer a {
     color: #3d3d3d; }
   footer a:hover {
@@ -7179,7 +7181,7 @@ footer {
 
   footer .nav li {
     padding: .5em 1em;
-    border-left: 1px solid #c3c3c3; }
+    border-left: 1px solid #e1e1e1; }
   footer .nav li:first-child {
     padding-left: 0;
     border-left: 0; } }
