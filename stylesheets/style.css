@@ -6941,16 +6941,16 @@ p, li {
   border-radius: 0;
   text-decoration: none; }
 
-.btn-tarr {
-  background: #05b7c7;
+.btn-jcm {
+  background: #dc4516;
   color: white; }
-  .btn-tarr i {
+  .btn-jcm i {
     margin-left: 5px; }
-  .btn-tarr .fa-external-link {
+  .btn-jcm .fa-external-link {
     font-size: 14px; }
 
-.btn-tarr:hover {
-  background: #049dab;
+.btn-jcm:hover {
+  background: back;
   color: white; }
 
 img {
