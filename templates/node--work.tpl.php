@@ -10,8 +10,8 @@
 <div class="row">
   <div class="access">
     <?php print render($content['field_work_image']); ?>
-    <a href"#" class="btn btn-jcm">View images of <?php print $title; ?></a>
-    <a href"#" class="btn btn-jcm">View full collection</a>
+    <a href"#" class="btn btn-jcm">View images of <?php print $title; ?><i class="fa fa-external-link"></i></a>
+    <a href"#" class="btn btn-jcm">View full collection<i class="fa fa-external-link"></i></a>
   </div>
   <div class="work-data">
     <dl>

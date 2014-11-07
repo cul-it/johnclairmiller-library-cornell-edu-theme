@@ -6943,7 +6943,8 @@ p, li {
 
 .btn-jcm {
   background: #dc4516;
-  color: white; }
+  color: white;
+  font-size: 16px; }
   .btn-jcm i {
     margin-left: 5px; }
   .btn-jcm .fa-external-link {
@@ -7096,7 +7097,8 @@ img {
   .access img {
     margin-bottom: 2em; }
   .access .btn {
-    white-space: normal; }
+    white-space: normal;
+    margin-bottom: 0 1em .5em 1em; }
 
 .work-data {
   position: relative;
