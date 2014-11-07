@@ -134,6 +134,7 @@ footer {
 	.nav {
 		li {
 			font-size: 14px;
+			padding: .5em 0;
 		}
 	}
 	a {
@@ -147,7 +148,7 @@ footer {
 	.nav > li > a {
 		padding: 0;
 		color: $dark-gray;
-		padding: .5em 0;
+		padding: 0;
 	}
 	.nav > li > a:hover {
 		background: inherit;
@@ -205,6 +206,18 @@ footer {
 				float: none;
 				margin-right: 0;
 				font-size: 22px;
+			}
+		}
+	}
+	footer {
+		.nav {
+			li {
+				padding: .5em 1em;
+				border-left: 1px solid $light-gray;
+			}
+			li:first-child {
+				padding-left: 0;
+				border-left: 0;
 			}
 		}
 	}
