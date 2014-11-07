@@ -3,13 +3,14 @@
 
 .front {
 	.image-wrapper {
-		min-height: 800px;
-		background: url("../images/slideshow/1.jpg") no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		color: $dark-gray;
+		// min-height: 800px;
+		// background: url("../images/slideshow/1.jpg") no-repeat;
+		// -webkit-background-size: cover;
+		// -moz-background-size: cover;
+		// -o-background-size: cover;
+		// background-size: cover;
+		// color: $dark-gray;
+		background-image: none;
 	}
 }
 
