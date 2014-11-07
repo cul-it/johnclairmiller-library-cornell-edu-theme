@@ -15,11 +15,11 @@
   </div>
   <div class="work-data">
     <dl>
-      <?php if ($content['field_type']) : ?>
+      <?php if (!empty ($content['field_type'])) : ?>
         <dt>Type</dt>
         <dd><?php print render($content['field_type']); ?></dd>
       <?php endif; ?>
-      <?php if ($content['field_location']) : ?>
+      <?php if (!empty ($content['field_location'])) : ?>
         <dt>Location</dt>
         <dd><?php print render($content['field_location']); ?></dd>
       <?php endif; ?>
