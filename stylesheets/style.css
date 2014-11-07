@@ -7128,9 +7128,15 @@ img {
 footer {
   padding: 1em 0 2em 0; }
   footer p {
-    font-size: 16px; }
+    font-size: 14px; }
   footer .nav li {
-    font-size: 16px; }
+    font-size: 14px; }
+  footer a {
+    color: #3d3d3d; }
+  footer a:hover {
+    background: inherit; }
+  footer .nav > li > a {
+    padding: 0; }
 
 .subfooter .container {
   background: rgba(61, 61, 61, 0.9); }

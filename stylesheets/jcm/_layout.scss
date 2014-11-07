@@ -128,12 +128,24 @@
 // -------------------------
 footer {
 	padding: 1em 0 2em 0;
-	p { font-size: 16px; }
+	p {
+		font-size: 14px;
+	}
 	.nav {
 		li {
-			font-size: 16px;
+			font-size: 14px;
 		}
 	}
+	a {
+		color: $dark-gray;
+	}
+	a:hover {
+		background: inherit;
+	}
+	.nav > li > a {
+		padding: 0;
+	}
+
 }
 .subfooter {
 	.container {
