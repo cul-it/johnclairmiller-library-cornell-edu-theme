@@ -25,12 +25,6 @@
 </div>
 
 <div class="image-wrapper">
-  <ul id="cbp-bislideshow" class="cbp-bislideshow">
-    <li><img src="/sites/all/themes/johnclairmiller/images/slideshow/1.jpg" alt="image01"/></li>
-    <li><img src="/sites/all/themes/johnclairmiller/images/slideshow/1.jpg" alt="image01"/></li>
-    <li><img src="/sites/all/themes/johnclairmiller/images/slideshow/1.jpg" alt="image01"/></li>
-    <li><img src="/sites/all/themes/johnclairmiller/images/slideshow/1.jpg" alt="image01"/></li>
-  </ul>
   <div class="navbar" role="navigation">
     <div class="container">
       <div class="row">
@@ -70,13 +64,5 @@
     <?php print render($page['footer']); ?>
   </footer>
 </div> <!-- /container -->
-
-<script src="/sites/all/themes/johnclairmiller/javascripts/jquery.imagesloaded.min.js"></script>
-<script src="/sites/all/themes/johnclairmiller/javascripts/cbpBGSlideshow.min.js"></script>
-<script>
-    $(function() {
-        cbpBGSlideshow.init();
-    });
-</script>
 
 <?php print render($page['bottom']); ?>
