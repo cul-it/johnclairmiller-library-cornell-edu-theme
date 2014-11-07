@@ -69,7 +69,7 @@
   jQuery(document).ready(function() { 
   var randomImages = ['1']; 
   var rndNum = Math.floor(Math.random() * randomImages.length); 
-  jQuery(".image-wrapper").css({ background: "url('/sites/all/themes/signale/images/slideshow/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+  jQuery(".image-wrapper").css({ background: "url('/sites/all/themes/johnclairmiller/images/slideshow/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
 </script>
 
 <?php print render($page['bottom']); ?>
