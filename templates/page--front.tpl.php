@@ -71,8 +71,8 @@
   </footer>
 </div> <!-- /container -->
 
-<script src="javascripts/jquery.imagesloaded.min.js"></script>
-<script src="javascripts/cbpBGSlideshow.min.js"></script>
+<script src="/sites/all/themes/johnclairmiller/javascripts/jquery.imagesloaded.min.js"></script>
+<script src="/sites/all/themes/johnclairmiller/javascripts/cbpBGSlideshow.min.js"></script>
 <script>
     $(function() {
         cbpBGSlideshow.init();
