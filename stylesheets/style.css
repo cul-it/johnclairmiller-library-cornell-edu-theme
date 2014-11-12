@@ -7031,13 +7031,14 @@ img {
       margin-bottom: .25em;
       font-size: 18px;
       float: left;
-      margin-right: .25em; }
+      margin-right: .25em;
+      line-height: 1em; }
     .home-menu .nav a {
       background: #dc4516;
       color: white;
       display: inline-block;
       text-decoration: none;
-      padding: 0 15px; }
+      padding: 5px 15px; }
     .home-menu .nav a:hover {
       background: white;
       color: #3d3d3d; }
@@ -7172,12 +7173,10 @@ footer {
 
   .home-menu {
     text-align: right; }
-    .home-menu .nav {
-      width: 50%; }
-      .home-menu .nav li {
-        float: none;
-        margin-right: 0;
-        font-size: 22px; }
+    .home-menu .nav li {
+      float: none;
+      margin-right: 0;
+      font-size: 22px; }
 
   footer .nav li {
     padding: .5em 1em;

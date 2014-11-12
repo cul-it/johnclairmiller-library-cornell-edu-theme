@@ -33,13 +33,14 @@
 			font-size: 18px;
 			float: left;
 			margin-right: .25em;
+			line-height: 1em;
 		}
 		a {
 			background: $orange;
 			color: white;
 			display: inline-block;
 			text-decoration: none;
-			padding: 0 15px;
+			padding: 5px 15px;
 		}
 		a:hover {
 			background: white;
@@ -202,7 +203,7 @@ footer {
 	.home-menu {
 		text-align: right;
 		.nav {
-			width: 50%;
+			// width: 50%;
 			li {
 				float: none;
 				margin-right: 0;
