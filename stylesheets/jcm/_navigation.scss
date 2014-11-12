@@ -136,3 +136,16 @@
 		float: right;
 	}
 }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: $screen-lg) {
+	.navbar {
+		.nav {
+			li {
+				a {
+					padding: 6px 15px;
+				}
+			}
+		}
+	}
+}

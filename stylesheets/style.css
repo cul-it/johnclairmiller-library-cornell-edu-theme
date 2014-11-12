@@ -7273,6 +7273,10 @@ footer {
 
   .navbar-nav {
     float: right; } }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) {
+  .navbar .nav li a {
+    padding: 6px 15px; } }
 body.admin-menu {
   padding-top: 0 !important; }
 
