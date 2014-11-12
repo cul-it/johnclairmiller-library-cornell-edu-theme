@@ -62,10 +62,10 @@
 // BRANDING and NAV
 // -------------------------
 .brand {
-	@include make-md-column(6);
+	@include make-sm-column(6);
 }
 .navigation {
-	@include make-md-column(6);
+	@include make-sm-column(6);
 }
 
 // WORKS GRID PAGES
