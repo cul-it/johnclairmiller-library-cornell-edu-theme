@@ -6,4 +6,4 @@
 
 # Ignore sass-cache
 /stylesheets/.sass-cache
-
+/stylesheets/style.css.map
