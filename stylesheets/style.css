@@ -7242,11 +7242,13 @@ footer {
     line-height: 1.5em;
     font-size: 36px; }
 
-  .navbar .nav li {
-    margin-left: 5px;
-    float: left; }
-    .navbar .nav li a {
-      padding: 6px; }
+  .navbar .nav {
+    margin-bottom: 1em; }
+    .navbar .nav li {
+      margin-left: 5px;
+      float: left; }
+      .navbar .nav li a {
+        padding: 6px; }
 
   .navbar-collapse {
     padding-left: 0; }
@@ -7257,19 +7259,20 @@ footer {
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 1em; }
-
-  .navbar-nav {
-    float: right; } }
+    line-height: 1em; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .navbar .nav {
-    margin-top: 2em; }
+    margin-top: 2em;
+    margin-bottom: 0; }
     .navbar .nav li a {
       padding: 6px; }
 
   .navbar-brand {
-    font-size: 48px; } }
+    font-size: 48px; }
+
+  .navbar-nav {
+    float: right; } }
 body.admin-menu {
   padding-top: 0 !important; }
 

@@ -89,6 +89,7 @@
 	}
 	.navbar {
 		.nav {
+			margin-bottom: 1em;
 			li {
 				margin-left: 5px;
 				float: left;
@@ -113,9 +114,6 @@
 		padding-bottom: 10px;
 		line-height: 1em;
 	}
-	.navbar-nav {
-		float: right;
-	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -123,6 +121,7 @@
 	.navbar {
 		.nav {
 			margin-top: 2em;
+			margin-bottom: 0;
 			li {
 				a {
 					padding: 6px;
@@ -132,5 +131,8 @@
 	}
 	.navbar-brand {
 		font-size: 48px;
+	}
+	.navbar-nav {
+		float: right;
 	}
 }
