@@ -62,11 +62,9 @@
 // BRANDING and NAV
 // -------------------------
 .brand {
-	@include make-sm-column(4);
 	@include make-md-column(6);
 }
 .navigation {
-	@include make-sm-column(8);
 	@include make-md-column(6);
 }
 
