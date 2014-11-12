@@ -85,7 +85,7 @@
 	.navbar-brand {
 		padding-left: 30px;
 		line-height: 1.5em;
-		font-size: 48px;
+		font-size: 36px;
 	}
 	.navbar {
 		.nav {
@@ -121,5 +121,8 @@
 		.nav {
 			margin-top: 2em;
 		}
+	}
+	.navbar-brand {
+		font-size: 48px;
 	}
 }

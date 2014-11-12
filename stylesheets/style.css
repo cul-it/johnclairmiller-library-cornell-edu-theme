@@ -7240,7 +7240,7 @@ footer {
   .navbar-brand {
     padding-left: 30px;
     line-height: 1.5em;
-    font-size: 48px; }
+    font-size: 36px; }
 
   .navbar .nav li {
     margin-left: 5px;
@@ -7262,7 +7262,10 @@ footer {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .navbar .nav {
-    margin-top: 2em; } }
+    margin-top: 2em; }
+
+  .navbar-brand {
+    font-size: 48px; } }
 body.admin-menu {
   padding-top: 0 !important; }
 
