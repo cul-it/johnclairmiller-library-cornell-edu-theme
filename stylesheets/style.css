@@ -7054,8 +7054,16 @@ img {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 768px) {
+    .brand {
+      float: left;
+      width: 41.66667%; } }
+  @media (min-width: 992px) {
     .brand {
       float: left;
       width: 50%; } }
@@ -7064,8 +7072,16 @@ img {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 768px) {
+    .navigation {
+      float: left;
+      width: 58.33333%; } }
+  @media (min-width: 992px) {
     .navigation {
       float: left;
       width: 50%; } }
@@ -7265,6 +7281,8 @@ footer {
 @media (min-width: 992px) {
   .navbar .nav {
     margin-top: 2em; }
+    .navbar .nav li a {
+      padding: 6px; }
 
   .navbar-brand {
     font-size: 48px; } }

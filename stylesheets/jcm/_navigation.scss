@@ -123,6 +123,11 @@
 	.navbar {
 		.nav {
 			margin-top: 2em;
+			li {
+				a {
+					padding: 6px;
+				}
+			}
 		}
 	}
 	.navbar-brand {
