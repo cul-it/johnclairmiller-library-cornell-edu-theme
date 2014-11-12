@@ -83,7 +83,7 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.navbar-brand {
-		padding-left: 30px;
+		padding-left: 20px;
 		line-height: 1.5em;
 		font-size: 36px;
 	}
@@ -131,6 +131,7 @@
 	}
 	.navbar-brand {
 		font-size: 48px;
+		padding-left: 30px;
 	}
 	.navbar-nav {
 		float: right;

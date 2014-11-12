@@ -7238,7 +7238,7 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .navbar-brand {
-    padding-left: 30px;
+    padding-left: 20px;
     line-height: 1.5em;
     font-size: 36px; }
 
@@ -7269,7 +7269,8 @@ footer {
       padding: 6px; }
 
   .navbar-brand {
-    font-size: 48px; }
+    font-size: 48px;
+    padding-left: 30px; }
 
   .navbar-nav {
     float: right; } }
