@@ -101,6 +101,9 @@
 		white-space: normal;
 		margin: 0 1em .5em 1em;
 	}
+	a {
+		display: block;
+	}
 }
 .work-data {
 	@include make-md-column(8);
