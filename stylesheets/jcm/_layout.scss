@@ -33,14 +33,13 @@
 			font-size: 18px;
 			float: left;
 			margin-right: .25em;
-			line-height: 1em;
 		}
 		a {
 			background: $orange;
 			color: white;
 			display: inline-block;
 			text-decoration: none;
-			padding: 5px 15px;
+			padding: 0 15px;
 		}
 		a:hover {
 			background: white;

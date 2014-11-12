@@ -7031,14 +7031,13 @@ img {
       margin-bottom: .25em;
       font-size: 18px;
       float: left;
-      margin-right: .25em;
-      line-height: 1em; }
+      margin-right: .25em; }
     .home-menu .nav a {
       background: #dc4516;
       color: white;
       display: inline-block;
       text-decoration: none;
-      padding: 5px 15px; }
+      padding: 0 15px; }
     .home-menu .nav a:hover {
       background: white;
       color: #3d3d3d; }
