@@ -7149,8 +7149,6 @@ footer {
     text-decoration: underline;
     color: black; }
 
-.subfooter .container {
-  background: rgba(255, 255, 255, 0.9); }
 .subfooter p {
   padding: 30px;
   color: black;
