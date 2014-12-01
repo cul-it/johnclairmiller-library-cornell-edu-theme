@@ -7191,6 +7191,7 @@ footer {
   font-family: "Hind", sans-serif;
   font-size: 30px;
   font-weight: 700;
+  color: black;
   text-transform: uppercase;
   height: auto;
   line-height: 1.2em;
@@ -7200,7 +7201,7 @@ footer {
   padding: 15px 0; }
 
 .navbar-brand:hover {
-  color: #dc4516; }
+  color: black; }
 
 .navbar {
   margin-bottom: 0;
@@ -7218,8 +7219,7 @@ footer {
         color: #999;
         margin-left: 5px; }
     .navbar .nav li a:hover {
-      background-color: white;
-      color: #3d3d3d; }
+      background-color: black; }
   .navbar .nav li.active a, .navbar .nav li.active a:hover {
     color: #3d3d3d;
     background-color: white; }

@@ -5,7 +5,7 @@
 	font-family: $font-family-sans-serif;
 	font-size: 30px;
 	font-weight: 700;
-	// color: white;
+	color: black;
 	text-transform: uppercase;
 	height: auto;
 	line-height: 1.2em;
@@ -15,7 +15,7 @@
 	padding: 15px 0;
 }
 .navbar-brand:hover {
-	color: $orange;
+	color: black;
 }
 .navbar {
 	margin-bottom: 0;
@@ -40,8 +40,8 @@
 				}
 			}
 			a:hover {
-				background-color: white;
-				color: $dark-gray;
+				background-color: black;
+				// color: $dark-gray;
 			}
 		}
 		li.active {
