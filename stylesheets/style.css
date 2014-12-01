@@ -7191,7 +7191,6 @@ footer {
   font-family: "Hind", sans-serif;
   font-size: 30px;
   font-weight: 700;
-  color: white;
   text-transform: uppercase;
   height: auto;
   line-height: 1.2em;
@@ -7207,9 +7206,6 @@ footer {
   margin-bottom: 0;
   border-radius: 0;
   border: none; }
-  .navbar .container {
-    background: #3d3d3d;
-    background: rgba(61, 61, 61, 0.9); }
   .navbar .nav li {
     font-size: 18px; }
     .navbar .nav li a {

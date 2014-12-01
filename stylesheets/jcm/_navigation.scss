@@ -5,7 +5,7 @@
 	font-family: $font-family-sans-serif;
 	font-size: 30px;
 	font-weight: 700;
-	color: white;
+	// color: white;
 	text-transform: uppercase;
 	height: auto;
 	line-height: 1.2em;
@@ -21,10 +21,10 @@
 	margin-bottom: 0;
 	border-radius: 0;
 	border: none;
-	.container {
-		background: $dark-gray;
-		background: rgba(61, 61, 61, 0.9);
-	}
+	// .container {
+	// 	background: $dark-gray;
+	// 	background: rgba(61, 61, 61, 0.9);
+	// }
 	.nav {
 		li {
 			font-size: 18px;
