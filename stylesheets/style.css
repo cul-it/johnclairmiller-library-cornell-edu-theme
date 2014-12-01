@@ -7219,7 +7219,8 @@ footer {
         color: #999;
         margin-left: 5px; }
     .navbar .nav li a:hover {
-      background-color: black; }
+      background-color: white;
+      color: #3d3d3d; }
   .navbar .nav li.active a, .navbar .nav li.active a:hover {
     color: #3d3d3d;
     background-color: white; }
