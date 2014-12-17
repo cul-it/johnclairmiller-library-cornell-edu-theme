@@ -21,7 +21,7 @@
 		// background: rgba(255, 255, 255, 0.9);
 		// padding: 30px;
 		color: black;
-		font-size: 18px;
+		font-size: 24px;
 	}
 }
 .home-menu {
@@ -35,14 +35,15 @@
 			margin-right: .25em;
 		}
 		a {
-			background: $orange;
-			color: white;
+			// background: $orange;
+			color: $orange;
 			display: inline-block;
 			text-decoration: none;
 			padding: 0 15px;
+			font-weight: bold;
 		}
 		a:hover {
-			background: white;
+			// background: white;
 			color: $dark-gray;
 		}
 	}
