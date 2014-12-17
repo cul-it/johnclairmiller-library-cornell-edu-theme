@@ -3,7 +3,7 @@
 
 .front {
 	.image-wrapper {
-		background: url("../images/slideshow/1.jpg") no-repeat;
+		background: url("../images/slideshow/2.jpg") no-repeat;
 		-webkit-background-size: cover !important;
 		-moz-background-size: cover !important;
 		-o-background-size: cover !important;
@@ -18,8 +18,8 @@
 .intro-text {
 	@include make-sm-column(6);
 	p {
-		background: rgba(255, 255, 255, 0.9);
-		padding: 30px;
+		// background: rgba(255, 255, 255, 0.9);
+		// padding: 30px;
 		color: black;
 		font-size: 18px;
 	}
