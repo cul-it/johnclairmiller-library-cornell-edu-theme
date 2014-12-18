@@ -166,7 +166,7 @@ footer {
 	p {
 		padding: 30px;
 		color: black;
-		font-size: 16px;
+		font-size: 18px;
 		text-align: center;
 	}
 }
@@ -190,11 +190,12 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.image-wrapper {
-		background: url("../images/slideshow/2b.jpg") no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+		// background: url("../images/slideshow/2b.jpg") no-repeat;
+		// -webkit-background-size: cover;
+		// -moz-background-size: cover;
+		// -o-background-size: cover;
+		// background-size: cover;
+		background: #f1f1f1;
 		color: $dark-gray;
 	}
 	.jumbotron {

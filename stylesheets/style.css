@@ -7162,17 +7162,13 @@ footer {
 .subfooter p {
   padding: 30px;
   color: black;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .image-wrapper {
-    background: url("../images/slideshow/2b.jpg") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: #f1f1f1;
     color: #3d3d3d; }
 
   .jumbotron {
@@ -7217,16 +7213,16 @@ footer {
   .navbar .nav li {
     font-size: 18px; }
     .navbar .nav li a {
-      color: white;
+      color: #dc4516;
       text-decoration: none;
-      background: #dc4516;
+      background: none;
       padding: 6px 15px; }
       .navbar .nav li a i {
         font-size: 14px;
         color: #999999;
         margin-left: 5px; }
     .navbar .nav li a:hover {
-      background-color: white;
+      background-color: none;
       color: #3d3d3d; }
   .navbar .nav li.active a, .navbar .nav li.active a:hover {
     color: #3d3d3d;

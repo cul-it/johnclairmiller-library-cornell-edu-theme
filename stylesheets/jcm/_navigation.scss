@@ -29,9 +29,9 @@
 		li {
 			font-size: 18px;
 			a {
-				color: white;
+				color: $orange;
 				text-decoration: none;
-				background: $orange;
+				background: none;
 				padding: 6px 15px;
 				i {
 					font-size: 14px;
@@ -40,7 +40,7 @@
 				}
 			}
 			a:hover {
-				background-color: white;
+				background-color: none;
 				color: $dark-gray;
 			}
 		}
