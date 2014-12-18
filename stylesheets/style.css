@@ -6936,7 +6936,7 @@ body {
 a {
   color: #dc4516; }
 
-a:hover, a:active {
+a:hover, a:focus {
   color: black; }
 
 h1 {
