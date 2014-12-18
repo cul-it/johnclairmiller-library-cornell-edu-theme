@@ -7038,7 +7038,7 @@ p, li {
       float: left;
       margin-right: .25em;
       line-height: 1.75em; }
-    .home-menu .nav a {
+    .home-menu .nav a:link, .home-menu .nav a:active {
       color: #dc4516;
       display: inline-block;
       text-decoration: none;
@@ -7213,16 +7213,16 @@ footer {
   border: none; }
   .navbar .nav li {
     font-size: 16px; }
-    .navbar .nav li a {
+    .navbar .nav li a:link, .navbar .nav li a:visited {
       color: #dc4516;
       text-decoration: none;
       background: none;
       padding: 6px 15px; }
-      .navbar .nav li a i {
+      .navbar .nav li a:link i, .navbar .nav li a:visited i {
         font-size: 14px;
         color: #999999;
         margin-left: 5px; }
-    .navbar .nav li a:hover {
+    .navbar .nav li a:hover, .navbar .nav li a:active {
       background-color: none;
       color: #3d3d3d; }
   .navbar .nav li.active a, .navbar .nav li.active a:hover {

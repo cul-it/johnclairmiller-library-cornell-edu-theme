@@ -36,8 +36,7 @@
 			margin-right: .25em;
 			line-height: 1.75em;
 		}
-		a {
-			// background: $orange;
+		a:link, a:active {
 			color: $orange;
 			display: inline-block;
 			text-decoration: none;

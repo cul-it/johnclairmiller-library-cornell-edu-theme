@@ -28,7 +28,7 @@
 	.nav {
 		li {
 			font-size: 16px;
-			a {
+			a:link, a:visited {
 				color: $orange;
 				text-decoration: none;
 				background: none;
@@ -39,7 +39,7 @@
 					margin-left: 5px;
 				}
 			}
-			a:hover {
+			a:hover, a:active {
 				background-color: none;
 				color: $dark-gray;
 			}
