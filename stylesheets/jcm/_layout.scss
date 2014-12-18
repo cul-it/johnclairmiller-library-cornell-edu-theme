@@ -42,7 +42,7 @@
 			padding: 0 15px;
 			// font-weight: bold;
 		}
-		a:hover {
+		a:hover, a:active {
 			background: inherit;
 			color: $dark-gray;
 		}
@@ -190,7 +190,7 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.image-wrapper {
-		background: url("../images/slideshow/1.jpg") no-repeat;
+		background: url("../images/slideshow/2b.jpg") no-repeat;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;

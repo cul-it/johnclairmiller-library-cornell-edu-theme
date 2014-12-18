@@ -7048,7 +7048,7 @@ img {
       display: inline-block;
       text-decoration: none;
       padding: 0 15px; }
-    .home-menu .nav a:hover {
+    .home-menu .nav a:hover, .home-menu .nav a:active {
       background: inherit;
       color: #3d3d3d; }
 
@@ -7168,7 +7168,7 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .image-wrapper {
-    background: url("../images/slideshow/1.jpg") no-repeat;
+    background: url("../images/slideshow/2b.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
