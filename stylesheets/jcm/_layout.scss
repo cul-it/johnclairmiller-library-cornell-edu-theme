@@ -41,7 +41,7 @@
 			color: $orange;
 			display: inline-block;
 			text-decoration: none;
-			padding: 0;
+			padding: 0 10px 0 0;
 			font-weight: bold;
 		}
 		a:hover, a:active {
@@ -215,6 +215,9 @@ footer {
 				float: none;
 				margin-right: 0;
 				font-size: 22px;
+			}
+			a {
+				padding: 0;
 			}
 		}
 	}

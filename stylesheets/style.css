@@ -7043,7 +7043,7 @@ p, li {
       color: #dc4516;
       display: inline-block;
       text-decoration: none;
-      padding: 0;
+      padding: 0 10px 0 0;
       font-weight: bold; }
     .home-menu .nav a:hover, .home-menu .nav a:active {
       background: inherit;
@@ -7180,6 +7180,8 @@ footer {
       float: none;
       margin-right: 0;
       font-size: 22px; }
+    .home-menu .nav a {
+      padding: 0; }
 
   footer .nav li {
     padding: .5em 1em;
