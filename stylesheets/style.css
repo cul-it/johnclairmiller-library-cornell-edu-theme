@@ -7110,7 +7110,8 @@ img {
     margin: 0 1em .5em 1em;
     font-size: 16px; }
   .access a {
-    display: block; }
+    display: block;
+    margin: 0 0 .5em; }
 
 .work-data {
   position: relative;
