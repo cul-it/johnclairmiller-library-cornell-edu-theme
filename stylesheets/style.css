@@ -7192,7 +7192,7 @@ footer {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .image-wrapper {
-    min-height: 800px; } }
+    min-height: 650px; } }
 .navbar-brand {
   font-family: "Helvetica", sans-serif;
   font-size: 30px;
