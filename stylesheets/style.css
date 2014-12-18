@@ -6933,7 +6933,7 @@ body {
   background: white;
   color: #3d3d3d; }
 
-a:link, a:visited {
+a, a:visited {
   color: #dc4516; }
 
 a:hover, a:active {
