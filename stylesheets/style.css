@@ -6933,11 +6933,11 @@ body {
   background: white;
   color: #3d3d3d; }
 
-a {
+a:link, a:visited {
   color: #dc4516;
   text-decoration: underline; }
 
-a:hover {
+a:hover, a:active {
   color: black; }
 
 h1 {
