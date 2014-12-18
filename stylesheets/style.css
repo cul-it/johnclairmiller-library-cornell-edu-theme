@@ -7162,7 +7162,7 @@ footer {
 .subfooter p {
   padding: 30px;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center; }
 
 /* Small devices (tablets, 768px and up) */
@@ -7226,7 +7226,7 @@ footer {
       color: #3d3d3d; }
   .navbar .nav li.active a, .navbar .nav li.active a:hover {
     color: #3d3d3d;
-    background-color: white; }
+    background-color: none; }
 
 .navbar-toggle {
   float: none;
