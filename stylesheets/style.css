@@ -7036,12 +7036,14 @@ p, li {
       margin-bottom: .25em;
       font-size: 18px;
       float: left;
-      margin-right: .25em; }
+      margin-right: .25em;
+      line-height: 1.75em; }
     .home-menu .nav a {
       color: #dc4516;
       display: inline-block;
       text-decoration: none;
-      padding: 0 15px; }
+      padding: 0;
+      font-weight: bold; }
     .home-menu .nav a:hover, .home-menu .nav a:active {
       background: inherit;
       color: #3d3d3d; }
