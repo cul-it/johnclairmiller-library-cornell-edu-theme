@@ -7047,9 +7047,9 @@ img {
       color: #dc4516;
       display: inline-block;
       text-decoration: none;
-      padding: 0 15px;
-      font-weight: bold; }
+      padding: 0 15px; }
     .home-menu .nav a:hover {
+      background: inherit;
       color: #3d3d3d; }
 
 .jumbotron {
@@ -7200,7 +7200,6 @@ footer {
   font-size: 30px;
   font-weight: 700;
   color: black;
-  text-transform: uppercase;
   height: auto;
   line-height: 1.2em;
   float: none;

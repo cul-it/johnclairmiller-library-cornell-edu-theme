@@ -40,10 +40,10 @@
 			display: inline-block;
 			text-decoration: none;
 			padding: 0 15px;
-			font-weight: bold;
+			// font-weight: bold;
 		}
 		a:hover {
-			// background: white;
+			background: inherit;
 			color: $dark-gray;
 		}
 	}
