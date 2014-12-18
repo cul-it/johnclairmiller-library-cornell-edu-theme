@@ -7210,7 +7210,7 @@ footer {
   border-radius: 0;
   border: none; }
   .navbar .nav li {
-    font-size: 18px; }
+    font-size: 16px; }
     .navbar .nav li a {
       color: #dc4516;
       text-decoration: none;
@@ -7263,7 +7263,8 @@ footer {
     margin-top: 2em;
     margin-bottom: 0; }
     .navbar .nav li a {
-      padding: 6px; }
+      padding: 6px;
+      font-size: 18px; }
 
   .navbar-brand {
     font-size: 48px; }
