@@ -7019,7 +7019,8 @@ p, li {
       width: 50%; } }
   .intro-text p {
     color: black;
-    font-size: 24px; }
+    font-size: 24px;
+    font-weight: normal; }
 
 .home-menu {
   position: relative;
