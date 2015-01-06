@@ -16,7 +16,7 @@
 // -------------------------
 
 .intro-text {
-	@include make-sm-column(6);
+	@include make-sm-column(8);
 	p {
 		// background: rgba(255, 255, 255, 0.9);
 		// padding: 30px;
@@ -26,7 +26,7 @@
 	}
 }
 .home-menu {
-	@include make-sm-column(6);
+	@include make-sm-column(4);
 	.nav {
 		float: right;
 		li {

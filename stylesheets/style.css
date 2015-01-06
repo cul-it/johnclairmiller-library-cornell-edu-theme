@@ -7001,7 +7001,7 @@ p, li {
   @media (min-width: 768px) {
     .intro-text {
       float: left;
-      width: 50%; } }
+      width: 66.66667%; } }
   .intro-text p {
     color: black;
     font-size: 24px;
@@ -7015,7 +7015,7 @@ p, li {
   @media (min-width: 768px) {
     .home-menu {
       float: left;
-      width: 50%; } }
+      width: 33.33333%; } }
   .home-menu .nav {
     float: right; }
     .home-menu .nav li {
