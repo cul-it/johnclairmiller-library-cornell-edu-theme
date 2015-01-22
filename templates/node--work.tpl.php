@@ -10,7 +10,10 @@
 <div class="row">
   <div class="access">
     <?php print render($content['field_work_image']); ?>
-    <a href="http://catalog.sharedshelf.artstor.org">Browse images of <?php print $title; ?></a>
+    <!-- <a href="http://catalog.sharedshelf.artstor.org">Browse images of <?php print $title; ?></a> -->
+    <?php if (!empty ($content['field_shared_shelf_link'])) : ?>
+      <?php print render($content['field_shared_shelf_link']); ?>
+    <?php endif; ?>
     <a href="http://hdl.handle.net/1813.001/8788265">Browse all images</a>
   </div>
   <div class="work-data">
