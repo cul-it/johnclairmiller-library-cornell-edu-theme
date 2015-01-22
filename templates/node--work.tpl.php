@@ -11,7 +11,7 @@
   <div class="access">
     <?php print render($content['field_work_image']); ?>
     <a href="http://catalog.sharedshelf.artstor.org">Browse images of <?php print $title; ?></a>
-    <a href="http://catalog.sharedshelf.artstor.org">Browse all images</a>
+    <a href="http://hdl.handle.net/1813.001/8788265">Browse all images</a>
   </div>
   <div class="work-data">
     <dl>
