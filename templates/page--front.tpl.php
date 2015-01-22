@@ -24,7 +24,7 @@
   <a class="visible-xs mobile-logo" href="http://www.library.cornell.edu"><img src="/sites/all/themes/johnclairmiller/images/layout/cul-mobile.png" alt="Cornell University Library"></a>
 </div>
 
-<div class="image-wrapper">
+<div class="image-wrapper" id="maincontent">
   <div class="navbar" role="navigation">
     <div class="container">
       <div class="row">

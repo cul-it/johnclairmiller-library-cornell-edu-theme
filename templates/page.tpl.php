@@ -45,7 +45,7 @@
     </div>
   </div><!-- /navbar -->
 
-  <div class="main-content">
+  <div class="main-content" id="maincontent">
     <div class="container">
       <?php print render($breadcrumb); ?>
       <?php print render($page['highlighted']); ?>
