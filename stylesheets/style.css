@@ -7078,8 +7078,7 @@ p, li {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px;
-  text-align: center; }
+  padding-right: 15px; }
   @media (min-width: 768px) {
     .access {
       float: left;
