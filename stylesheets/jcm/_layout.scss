@@ -108,7 +108,7 @@
 	}
 }
 .work-data {
-	@include make-md-column(8);
+	@include make-sm-column(8);
 	dt {
 		text-transform: uppercase;
 		font-size: 12px;
